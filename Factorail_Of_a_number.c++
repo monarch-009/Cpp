@@ -3,11 +3,11 @@ using namespace std;
 
 long fact(int n)
 {
-    if (n <= 1)
+    if (n <= 1) // base case
     {
         return n;
     }
-    return n * fact(n - 1);
+    return n * fact(n - 1); // recusive function call
 }
 
 int main()
